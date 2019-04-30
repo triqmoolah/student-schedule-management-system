@@ -4,7 +4,7 @@ package it306project;
  * @author Tariq Ullah & Ashraf Ullah
  *
  */
-public class Professor extends User {
+public class Professor {
 
 	private String profID;
 	private String[] schedule = new String[10];

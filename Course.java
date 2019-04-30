@@ -41,7 +41,6 @@ public class Course {
 	}
 	
 	
-	
 	/**
 	 * return a string of the course info
 	 */
