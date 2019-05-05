@@ -1,5 +1,0 @@
-Course Name: IT101 | Course Time: 10:00AM - 12:00PM | Professor: Ahmed Saleem
-Course Name: IT306 | Course Time: 12:30PM - 02:00PM | Professor: Kareem Kabbar
-Course Name: IT209 | Course Time: 01:00PM - 03:00PM | Professor: Ali Ron
-Course Name: IT207 | Course Time: 10:00PM - 11:00PM | Professor: Claudia Cable
-Course Name: IT410 | Course Time: 08:00PM - 10:00PM | Professor: Jayn Desk
