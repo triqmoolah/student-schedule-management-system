@@ -1,56 +1,104 @@
-package it306project;
+package it306Project2;
+
+import java.util.ArrayList;
+
 /**
  * @author Tariq Ullah & Ashraf Ullah
  *
+ *         This class allows a student to be created with a first name, last
+ *         name, password, and id as well as add/drop courses to their roster
  */
-public class Student extends User {
-	
+public class Student {
+
 	private String fname;
 	private String lname;
-	private String studentID;
-	private String[] schedule = new String[10];
-	private int ctr = 0;
+	private String password;
+	private String id;
+	private ArrayList<String> roster = new ArrayList<String>();
+
+	public Student() {
+		
+	}
 	
-	/**
-	 * @param fname
-	 * @param lname
-	 * @param studentID
-	 */
-	public Student(String fname, String lname, String studentID) {
+	public Student(String fname, String lname, String password, String id) {
+		super();
 		this.fname = fname;
 		this.lname = lname;
-		this.studentID = studentID;
-	}
-	
-	/**
-	 * @param course
-	 */
-	public void setCourse(String course) {
-		schedule[ctr] = course;
-	}
-	
-	/**
-	 * 
-	 */
-	public void getCourses() {
-		for(int i=0; i < schedule.length; i++) {
-			System.out.println(schedule[i]);
-		}
-	}
-	
-	/**
-	 * @return first and last name of student
-	 */
-	public String getName() {
-		return fname + " " + lname; 
-	}
-	
-	/**
-	 * @return student ID
-	 */
-	public String getID() {
-		return studentID;
+		this.password = password;
+		this.id = id;
 	}
 
-	
+	public String getFname() {
+		return fname;
+	}
+
+	public void setFname(String fname) {
+		this.fname = fname;
+	}
+
+	public String getLname() {
+		return lname;
+	}
+
+	public void setLname(String lname) {
+		this.lname = lname;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	public String viewRoster() {
+
+		StringBuilder builder = new StringBuilder();
+		for (String value : roster) {
+			builder.append(value + " \n");
+		}
+
+		String text = builder.toString();
+		return text;
+	}
+
+	public void addCourse(String course) {
+		roster.add(course);
+	}
+
+	public void dropCourse(String course) {
+
+		for (int i = 0; i < roster.size(); i++) {
+			if (roster.get(i).equals(course))
+				roster.remove(i);
+
+		}
+	}
+
+	public boolean searchCourses(String course) {
+		for (int i = 0; i < roster.size(); i++) {
+			if (roster.get(i).equals(course))
+				return true;
+		}
+		return false;
+	}
+
+	public String viewStudentInfo() {
+		return "Name: " + fname + " " + lname + " || " + "Student ID: " + id + " || Password: " + password
+				+ "\nCourses:\n" + viewRoster() + "\n";
+	}
+
+	public String getFullName() {
+		return fname + " " + lname;
+	}
+
 }
