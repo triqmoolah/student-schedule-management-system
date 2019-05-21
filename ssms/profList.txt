@@ -1,0 +1,27 @@
+Name: Mark Snyder || Professor ID: 4562 || Password: Pokemon-1
+Courses:
+IT765 
+IT780 
+IT336 
+
+
+Name: Bob Marley || Professor ID: 7842 || Password: Pokemon-1
+Courses:
+IT778 
+IT985 
+IT736 
+
+
+Name: Ahmed Hakeem || Professor ID: 7659 || Password: Pokemon-1
+Courses:
+IT738 
+IT985 
+IT796 
+
+
+Name: Jane Foster || Professor ID: 5431 || Password: Pokemon-1
+Courses:
+IT790 
+IT921 
+IT767 
+

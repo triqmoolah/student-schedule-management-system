@@ -1,0 +1,42 @@
+Name: Ashraf Ullah || Student ID: 9075 || Password: Pokemon-1
+Courses:
+IT399 
+IT399 
+IT675 
+IT254 
+
+
+Name: Tariq Ullah || Student ID: 4783 || Password: Pokemon-1
+Courses:
+IT399 
+IT399 
+IT675 
+
+
+Name: Rahima Shafiq || Student ID: 1896 || Password: Pokemon-1
+Courses:
+IT399 
+
+
+Name: Jasmin Ullah || Student ID: 9965 || Password: Pokemon-1
+Courses:
+IT399 
+IT399 
+IT675 
+IT254 
+IT399 
+
+
+Name: Yasmin Shafiq || Student ID: 6743 || Password: Pokemon-1
+Courses:
+IT399 
+IT399 
+IT675 
+IT254 
+
+
+Name: Rokeya Ullah || Student ID: 9723 || Password: Pokemon-1
+Courses:
+IT399 
+IT399 
+
